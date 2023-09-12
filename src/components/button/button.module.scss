@@ -1,0 +1,15 @@
+.button {
+  padding: 10px;
+  border: 2px solid var(--secondary-color);
+  border-radius: var(--border-radius-small);
+  background-color: var(--main-bg-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: var(--secondary-color);
+    color: var(--main-bg-color);
+  }
+}
